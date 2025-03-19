@@ -1,0 +1,10 @@
+ Explanation:-
+------------------
+1) Load JSON:
+    Extracts text chunks from a JSON file.
+2)Generate Embedding:
+   Calls AWS Bedrock Titan Text Embeddings V2 to generate embeddings.
+3)Store in LanceDB:
+  Saves text chunks, embeddings, source document name, and chunk index.
+4)Similarity Search:
+ Queries LanceDB using a vector search.
